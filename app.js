@@ -14,3 +14,4 @@ app.get('/', (req, res) => res.json({ ok:'true'}));
 app.use(express.json());
 app.use(productRoutes);
 app.listen(PORT, () => console.log("Server andando " + PORT))
+app.listen 
